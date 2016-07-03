@@ -227,7 +227,7 @@ def main_online_ensemble():
         proba_positive.append(avr)
     
     # 线上预测结果排序,并挑选概率大于门限的值提交
-    submits = MpOff.model_sortAndsubmit(proba_positive,0.65) # 0.28
+    submits = MpOff.model_sortAndsubmit(proba_positive,0.65  ) # 0.28
     
     # 保存线上预测结果到csv文件
     MpOn.model_save(submits, 'SubmitsResults/tianchi_mobile_recommendation_predict_0703_ensemble_826.csv')
