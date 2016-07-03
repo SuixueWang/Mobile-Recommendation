@@ -270,11 +270,11 @@ if __name__ == '__main__':
 #     main_offline()
 
     # 处理线上数据
-#     main_online()
+    main_online()
 
 #     main_offline_ensemble()
     
-    main_online_ensemble()
+#     main_online_ensemble()
     
     # 实际线上经过推算,共有517个购买量
 
