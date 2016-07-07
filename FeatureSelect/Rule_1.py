@@ -66,7 +66,7 @@ def Rule_1(id_ui,time_start,time_end):
     print 'len of X_rule ia ',len(X_rule)            
                 
     supplement = {}
-    with open('SubmitsResults/tianchi_mobile_recommendation_predict_0701_557.csv','r') as fp:
+    with open('SubmitsResults/tianchi_mobile_recommendation_predict_0630_0.65.csv','r') as fp:
         for line in fp:
             line = line.strip()
             value = line.split(',')

@@ -81,7 +81,7 @@ if __name__ == '__main__':
     
     # 保存线上预测结果到csv文件
     import Main_processing_online  as MpOn
-    MpOn.model_save(X, 'SubmitsResults/tianchi_mobile_recommendation_predict_516_rule3.csv')
+    MpOn.model_save(X, 'SubmitsResults/tianchi_mobile_recommendation_predict_0.65_rule3.csv')
     
     time1 = time.time()
 
