@@ -27,7 +27,7 @@ Directory Structure
 
 	# subdirectories
 	├── FeatureSelect                       # extracting detail features, such as Item Feature, User Feature and Union Feature.
-	├── UI_Label                            # getting sample's item (U,I)
+	├── UI_Label                            # getting sample's item (U,I) and offline labels. 
 
 
 
