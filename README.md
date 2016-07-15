@@ -1,11 +1,13 @@
 # Mobile-Recommendation
 
-Introduction
+
+Introduction 
+================
     
     This Project is about the Ali Mobile Recommendation Algorithm Competition.
-    
 
 Directory Structure
+================
 
 	└── README.md                           # deacription
 
@@ -26,6 +28,8 @@ Directory Structure
 	# subdirectories
 	├── FeatureSelect                       # extracting detail features, such as Item Feature, User Feature and Union Feature.
 	├── UI_Label                            # getting sample's item (U,I)
+
+
 
 
 
