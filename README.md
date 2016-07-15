@@ -1,6 +1,5 @@
 # Mobile-Recommendation
 
-
 Introduction
     
     This Project is about the Ali Mobile Recommendation Algorithm Competition.
@@ -23,6 +22,5 @@ Directory Structure
 	├── Main_model.py                                # reading csv file fastly
 	├── Main_processing_offline.py            # reading csv file fastly
 	├── Main_processing_online.py            # reading csv file fastly
-
 
 
