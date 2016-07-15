@@ -2,12 +2,12 @@
 
 
 Introduction 
-================
+-----------------------------
     
     This Project is about the Ali Mobile Recommendation Algorithm Competition.
 
 Directory Structure
-================
+-----------------------------
 
 	└── README.md                           # deacription
 
