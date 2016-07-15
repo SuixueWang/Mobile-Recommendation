@@ -16,7 +16,7 @@ def main_offline():
     print '------------------- start -----------------------------'
 
     # 线下训练
-#     model = MpOff.model_train(True,'model_tmp.pkl')
+#     model = MpOff.model_train(False,'model_tmp.pkl')
     
     f = open('model_tmp.pkl','r')
     model = pickle.load(f)
@@ -24,10 +24,10 @@ def main_offline():
     
     # 线下预测
     proba_positive = MpOff.model_predict(model)
-    
+     
     # 线下预测结果排序,并挑选概率大于门限的值提交
-    submits = MpOff.model_sortAndsubmit(proba_positive,0.310) # 0.28
-    
+    submits = MpOff.model_sortAndsubmit(proba_positive,0.28) # 0.28
+     
     # 线下评估
     MpOff.model_evaluation_offline(submits)
     
@@ -267,10 +267,10 @@ def main_online():
 if __name__ == '__main__':
     
     # 处理线下数据
-#     main_offline()
+    main_offline()
 
     # 处理线上数据
-    main_online()
+#     main_online()
 
 #     main_offline_ensemble()
     
